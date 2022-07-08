@@ -1,0 +1,37 @@
+# jemdoc: menu{MENU}{index.html}, nofooter  
+=Wenzhi (Tom) Fang （方文智）
+
+~~~
+{}{img_left}{./photos/u.jpg}{alt text}{162}{220}{}
+Hello and welcome! I am currently a final-year master advised by Prof. [https://faculty.sist.shanghaitech.edu.cn/faculty/zhouyong/index.html Yong Zhou] and [https://shiyuanming.github.io/ Yuanming Shi] at [https://www.shanghaitech.edu.cn ShanghaiTech University], majoring in Information and Communication Engineering. Earlier, I obtained my bachelor’s degree in Communication Engineering from Shanghai University in 2020.
+
+
+
+My research interest lies in the intersection of machine learning and communication networks, in particular federated learning, optimization as well as their applications to 6G, IoT and AI.
+
+
+You can find my CV [./photos/CV_fangwenzhi.pdf here].
+
+*Email:* fangwzh1@shanghaitech.edu.cn
+
+*Address:* Rm. 2C-401, SIST Building 2, 393 Middle Huaxia Road, Pudong New District, Shanghai 201210, China. \n 
+#Phone: \+86 18717973920 \n
+~~~
+
+
+== News
+
+I am currently searching for Ph. D. position (2023 Fall). If you are interested in working with me, please feel free to contac me.
+
+#== Research
+#My research interests include 
+#- Distributed Optimization.
+#- Wireless Communication, Signal Processing.
+#- Machine Learning, Federated Learning.
+
+#[research.html Find out more].
+== Publications 
+. W. Fang, Y. Jiang, Y. Shi, Y. Zhou, W. Chen, and K. Letaief, \"Over-the-Air Computation via Reconfigurable Intelligent Surface\",  IEEE Trans. Commun., vol. 69, no. 12, pp. 8612-8626, Dec. 2021. \n
+. W. Fang, Y. Zou, H. Zhu, Y. Shi, and Y. Zhou, \"Optimal Receive Beamforming for Over-the-Air Computation \",  in Proc. IEEE SPAWC, Virtual Conferences, Sept. 2021. \[[http://arxiv.org/abs/1306.2454 pdf]\] \n
+. W. Fang, M. Fu, K. Wang, Y. Shi, and Y. Zhou, \"Stochastic Beamforming for Reconfigurable Intelligent Surface Aided Over-the-Air Computation\", in Proc. IEEE Globecom, Virtual Conference, Dec. 2020. \[[https://www.dropbox.com/s/k9izxz1m39yvvuz/admm_distributed_aveg.pdf?dl=0 pdf] \] \n
+. W. Fang, M. Fu, Y. Shi, and Y. Zhou, \"Outage Minimization for Intelligent Reflecting Surface Aided MISO Communication Systems via Stochastic Beamforming\", in Proc. IEEE SAM, Virtual Conference, Jun. 2020. \[[pub/oppTOSN.pdf pdf]\] \n
