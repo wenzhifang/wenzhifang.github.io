@@ -2,10 +2,10 @@ Wenzhi (Tom) Fang
     Home                [index.html]
     Research			[research.html]
 	Publication         [publications.html]
-	Software			[software.html]
+#	Software			[software.html]
 	Teaching			[teaching.html]
-	Courses				[courses.html]
-    Activities			[activities.html]
+#	Courses				[courses.html]
+#   Activities			[activities.html]
 	
 Useful Links
 	FL Seminar					[https://sites.google.com/view/one-world-seminar-series-flow/home]
