@@ -23,7 +23,7 @@ You can find my CV [./photos/CV_fangwenzhi.pdf here].
 
 *I am currently searching for Ph. D. position (2023 Fall). If you are interested in working with me, please feel free to contact me！* \n
 *The paper \"Communication-Efficient
- Stochastic Zeroth-Order Optimization for Federated Learning \", joint work with Ziyi Yu, Yuning Jiang, Yuanming Shi, Colin N. Jones, and Yong Zhou, accepted by IEEE Trans. Signal
+ Stochastic Zeroth-Order Optimization for Federated Learning \", joint work with Ziyi Yu, Yuning Jiang, Yuanming Shi, Colin N. Jones, and Yong Zhou, has been accepted by IEEE Trans. Signal
  Process.*
 
 == Research
@@ -35,7 +35,7 @@ My research interests include
 #[research.html Find out more].
 == Publications 
 . *W. Fang*, Ziyi Yu, Yuning Jiang, Yuanming Shi, Colin N. Jones, and Yong Zhou, \"Communication-Efficient
- Stochastic Zeroth-Order Optimization for Federated Learning \", has been accepted by IEEE Trans. Signal
+ Stochastic Zeroth-Order Optimization for Federated Learning \", accepted by IEEE Trans. Signal
  Process. \[[./photos/Final_Version.pdf pdf]\] \[[https://github.com/noobyzy/FedZO code]\] \[[./photos/presentation.pdf slides]\] \n 
 . *W. Fang*, Y. Jiang, Y. Shi, Y. Zhou, W. Chen, and K. Letaief, \"Over-the-Air Computation via Reconfigurable Intelligent Surface\",  IEEE Trans. Commun., vol. 69, no. 12, pp. 8612-8626, Dec. 2021. \[[https://ieeexplore.ieee.org/abstract/document/9546764 pdf]\] \[[./photos/Demo_AirComp_RIS.zip code]\] \n
 . *W. Fang*, Y. Zou, H. Zhu, Y. Shi, and Y. Zhou, \"Optimal Receive Beamforming for Over-the-Air Computation \",  in Proc. IEEE SPAWC, Virtual Conferences, Sept. 2021. \[[https://ieeexplore.ieee.org/abstract/document/9593251 pdf]\] \[[./photos/Code_BnB.zip code]\] \n
