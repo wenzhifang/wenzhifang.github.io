@@ -25,6 +25,9 @@ My research interests include
 - Optimization for Communication.
 - Optimization for Federated Learning.
 
+== Technical Reports 
+. *W. Fang*, Dong-Jun Han, Christopher G. Brinton, \"Submodel Partitioning in Hierarchical Federated Learning: Algorithm Design and Analysis \", 2023. \[[./photos/HIST_report.pdf pdf]\]
+
 #[research.html Find out more].
 == Publications 
 . *W. Fang*, Ziyi Yu, Yuning Jiang, Yuanming Shi, Colin N. Jones, and Yong Zhou, \"Communication-Efficient
