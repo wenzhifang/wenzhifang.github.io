@@ -1,23 +1,24 @@
 # jemdoc: menu{MENU}{index.html}, nofooter  
-=Wenzhi (Tom) Fang （方文智）
+=Wenzhi Fang
 
 ~~~
 {}{img_left}{./photos/u.jpg}{alt text}{162}{220}{}
-Hello and welcome! I am currently a first-year PhD student at [https://www.shanghaitech.edu.cn Purdue University], majoring in Electrical and Computer Engineering. I obtained my bachelor’s degree in Communication Engineering at Shanghai University in 2020 and master's degree in Communication and Information System at ShanghaiTech University
+Hello and welcome! I am currently a first-year PhD student at [https://engineering.purdue.edu/ECE Purdue University], majoring in Electrical and Computer Engineering, under the supervision of Prof. [https://www.cbrinton.net/ Christopher G. Brinton]. Previous to that, I obtained my master's degree in Communication and Information Systems at ShanghaiTech University. I had a delightful journey at ShanghaiTech, and I was especially fortunate to be advised by Prof. [https://scholar.google.com.hk/citations?user=8bpAwKcAAAAJ&hl=zh-CN Yong Zhou] and Prof. [https://scholar.google.com.hk/citations?hl=zh-CN&user=362l5HAAAAAJ&view_op=list_works&sortby=pubdate Yuanming Shi]. In addition, from Aug. 2022 to Feb. 2023, I served as a research intern in the Optimization for Machine Learning lab at KAUST led by Prof. [https://scholar.google.com/citations?user=pGh242UAAAAJ&hl=zh-CN Peter Rechtaric].
 
 
 
 
-*Email:* fangwzh1@shanghaitech.edu.cn
 
-*Address:* Rm. 2C-401, SIST Building 2, 393 Middle Huaxia Road, Pudong New District, Shanghai 201210, China. \n 
-#Phone: \+86 18717973920 \n
+*Email:* fang375@purdue.edu
+
+*Address:* Rm. 051, BHEE, West Lafayette, IN, 47906, US. \n
+*Phone:* \+1 (765) 694-5334 \n
 ~~~
 
 
 == News
 
-*I have been admitted to Purdue ECE, beginning in Fall 2023. If you are interested in working with me, please feel free to contact me！*
+*I have been admitted to Purdue ECE, beginning in Fall 2023.*
 
 == Research
 My research interests include 
@@ -25,11 +26,11 @@ My research interests include
 - Optimization for Communication.
 - Optimization for Federated Learning.
 
-== Technical Reports 
-. *W. Fang*, Dong-Jun Han, Christopher G. Brinton, \"Submodel Partitioning in Hierarchical Federated Learning: Algorithm Design and Analysis \", 2023. \[[./ICC/HIST_report.pdf pdf]\]
+== Preprints
+. *W. Fang*, Dong-Jun Han, Christopher G. Brinton, \"Submodel Partitioning in Hierarchical Federated Learning: Algorithm Design and Convergence Analysis \", 2023. \[[./ICC/HIST_report.pdf pdf]\]
 
 #[research.html Find out more].
-== Publications 
+== [https://scholar.google.com/citations?user=XdUxykMAAAAJ&hl=en Publications]
 . *W. Fang*, Ziyi Yu, Yuning Jiang, Yuanming Shi, Colin N. Jones, and Yong Zhou, \"Communication-Efficient
  Stochastic Zeroth-Order Optimization for Federated Learning \", IEEE Trans. Signal
  Process. vol. 70, pp. 5058-5073, 2022. \[[./photos/Final_Version.pdf pdf]\] \[[https://github.com/noobyzy/FedZO code]\] \[[./photos/presentation.pdf slides]\] \n 
