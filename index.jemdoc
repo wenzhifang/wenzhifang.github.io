@@ -22,9 +22,9 @@ Hello and welcome! I am currently a first-year PhD student at [https://engineeri
 
 == Research
 My research interests include 
-- Distributed Optimization Theory.
-- Optimization for Communication.
-- Optimization for Federated Learning.
+- Distributed Optimization.
+- Wireless Communication.
+- Federated Learning.
 
 == Preprints
 . *W. Fang*, Dong-Jun Han, Christopher G. Brinton, \"Submodel Partitioning in Hierarchical Federated Learning: Algorithm Design and Convergence Analysis \", 2023. \[[./ICC/HIST_report.pdf pdf]\]
