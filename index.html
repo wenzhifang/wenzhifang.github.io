@@ -41,18 +41,31 @@
 <h2>Research</h2>
 <p>My research interests include </p>
 <ul>
-<li><p>Distributed Optimization Theory.</p>
+<li><p>Distributed Optimization.</p>
 </li>
-<li><p>Optimization for Communication.</p>
+<li><p>Wireless Communication.</p>
 </li>
-<li><p>Optimization for Federated Learning.</p>
+<li><p>Federated Learning.</p>
 </li>
 </ul>
 <h2>Preprints</h2>
 <ol>
-<li><p><b>W. Fang</b>, Dong-Jun Han, Christopher G. Brinton, "Submodel Partitioning in Hierarchical Federated Learning: Algorithm Design and Convergence Analysis ", 2023. [<a href="./ICC/HIST_report.pdf">pdf</a>]</p>
+<li><p><b>W. Fang</b>, Dong-Jun Han, Christopher G. Brinton, "Federated Learning over Hierarchical Wireless Networks: Training Latency Minimization via Submodel Partitioning ", 2024. [<a href="./HIST/HIST_Journal.pdf">pdf</a>]</p>
 </li>
 </ol>
+<p>In this project, we propose hierarchical independent submodel training (HIST), a new FL methodology that aims to address these issues in hierarchical networks. <br /></p>
+<table class="imgtable"><tr><td>
+<img src="./HIST/Journal_HIST.jpg" alt="alt text" width="460px" height="360px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>The key idea behind HIST is a hierarchical version of model partitioning, where we divide the global model into disjoint partitions (or submodels) per round so that each cell is responsible for training only one partition of the model, reducing client-side computational/storage costs and overall communication load. The codes of HIST for training a fully connected neural network and CNNs on FMNIST and CIFAR-10 are provided [<a href="./HIST/Code_HIST.zip">here</a>].</p>
+<table class="imgtable"><tr><td>
+<img src="./HIST/neural_partition.jpg" alt="alt text" width="460px" height="260px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Model partitioning can be achieved by partitioning the hidden neurons of fully connected layers.
+For CNNs, we only partition the fully connected layers while the convolutional layers are shared by different cells. 
+In particular, we let the input and output neurons be independent of partition and partition the hidden neurons every two layers. As a result, the parameter volume of each submodel is equal to <img class="eq" src="eqs/163512108431620409-130.png" alt="1/N" style="vertical-align: -5px" /> of that of the full model on average. <br /></p>
+<div class="infoblock">
+<div class="blockcontent">
 <h2><a href="https://scholar.google.com/citations?user=XdUxykMAAAAJ&amp;hl=en">Publications</a></h2>
 <ol>
 <li><p><b>W. Fang</b>, Ziyi Yu, Yuning Jiang, Yuanming Shi, Colin N. Jones, and Yong Zhou, "Communication-Efficient
@@ -60,6 +73,8 @@ Stochastic Zeroth-Order Optimization for Federated Learning ", IEEE Trans. Signa
 Process. vol. 70, pp. 5058-5073, 2022. [<a href="./photos/Final_Version.pdf">pdf</a>] [<a href="https://github.com/noobyzy/FedZO">code</a>] [<a href="./photos/presentation.pdf">slides</a>] <br /> </p>
 </li>
 <li><p><b>W. Fang</b>, Y. Jiang, Y. Shi, Y. Zhou, W. Chen, and K. Letaief, "Over-the-Air Computation via Reconfigurable Intelligent Surface",  IEEE Trans. Commun., vol. 69, no. 12, pp. 8612-8626, Dec. 2021. [<a href="https://ieeexplore.ieee.org/abstract/document/9546764">pdf</a>] [<a href="./photos/Demo_AirComp_RIS.zip">code</a>] <br /></p>
+</li>
+<li><p><b>W. Fang</b>, D.-J. Han, C. G. Brinton, "Submodel Partitioning in Hierarchical Federated Learning: Algorithm Design and Convergence Analysis ", accepted to 2024 IEEE ICC. [<a href="./ICC/HIST_report.pdf">pdf</a>] <br /></p>
 </li>
 <li><p><b>W. Fang</b>, Y. Zou, H. Zhu, Y. Shi, and Y. Zhou, "Optimal Receive Beamforming for Over-the-Air Computation ",  in Proc. IEEE SPAWC, Virtual Conferences, Sept. 2021. [<a href="https://ieeexplore.ieee.org/abstract/document/9593251">pdf</a>] [<a href="./photos/Code_BnB.zip">code</a>] <br /></p>
 </li>
