@@ -27,8 +27,8 @@ My research interests include
 - Federated Learning.
 
 == Preprints
-. *W. Fang*, Dong-Jun Han, Christopher G. Brinton, \"Federated Learning over Hierarchical Wireless Networks: Training Latency Minimization via Submodel Partitioning \", 2024. \[[./HIST/HIST_Journal.pdf pdf]\]
-
+#. *W. Fang*, Dong-Jun Han, Christopher G. Brinton, \"Federated Learning over Hierarchical Wireless Networks: Training Latency Minimization via Submodel Partitioning \", 2024. \[[./HIST/HIST_Journal.pdf pdf]\]
+. *W. Fang*, D.-J. Han, C. G. Brinton, \"Submodel Partitioning in Hierarchical Federated Learning: Algorithm Design and Convergence Analysis \", accepted to 2024 IEEE ICC. \[[./ICC/HIST_report.pdf pdf]\] \n
 
 In this project, we propose hierarchical independent submodel training (HIST), a new FL methodology that aims to address these issues in hierarchical networks. \n
 
@@ -58,7 +58,6 @@ In particular, we let the input and output neurons be independent of partition a
  Stochastic Zeroth-Order Optimization for Federated Learning \", IEEE Trans. Signal
  Process. vol. 70, pp. 5058-5073, 2022. \[[./photos/Final_Version.pdf pdf]\] \[[https://github.com/noobyzy/FedZO code]\] \[[./photos/presentation.pdf slides]\] \n 
 . *W. Fang*, Y. Jiang, Y. Shi, Y. Zhou, W. Chen, and K. Letaief, \"Over-the-Air Computation via Reconfigurable Intelligent Surface\",  IEEE Trans. Commun., vol. 69, no. 12, pp. 8612-8626, Dec. 2021. \[[https://ieeexplore.ieee.org/abstract/document/9546764 pdf]\] \[[./photos/Demo_AirComp_RIS.zip code]\] \n
-. *W. Fang*, D.-J. Han, C. G. Brinton, \"Submodel Partitioning in Hierarchical Federated Learning: Algorithm Design and Convergence Analysis \", accepted to 2024 IEEE ICC. \[[./ICC/HIST_report.pdf pdf]\] \n
 . *W. Fang*, Y. Zou, H. Zhu, Y. Shi, and Y. Zhou, \"Optimal Receive Beamforming for Over-the-Air Computation \",  in Proc. IEEE SPAWC, Virtual Conferences, Sept. 2021. \[[https://ieeexplore.ieee.org/abstract/document/9593251 pdf]\] \[[./photos/Code_BnB.zip code]\] \n
 . *W. Fang*, M. Fu, K. Wang, Y. Shi, and Y. Zhou, \"Stochastic Beamforming for Reconfigurable Intelligent Surface Aided Over-the-Air Computation\", in Proc. IEEE Globecom, Virtual Conference, Dec. 2020. \[[https://ieeexplore.ieee.org/document/9322259 pdf] \] \n
 . *W. Fang*, M. Fu, Y. Shi, and Y. Zhou, \"Outage Minimization for Intelligent Reflecting Surface Aided MISO Communication Systems via Stochastic Beamforming\", in Proc. IEEE SAM, Virtual Conference, Jun. 2020. \[[https://ieeexplore.ieee.org/abstract/document/9104259 pdf]\] \n
