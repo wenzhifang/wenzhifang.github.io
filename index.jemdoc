@@ -38,7 +38,7 @@ In this project, we propose hierarchical independent submodel training (HIST), a
 ~~~
 
 
-The key idea behind HIST is a hierarchical version of model partitioning, where we divide the global model into disjoint partitions (or submodels) per round so that each cell is responsible for training only one partition of the model, reducing client-side computational/storage costs and overall communication load. The codes of HIST for training a fully connected neural network and CNNs on FMNIST and CIFAR-10 are provided \[[./HIST/Code_HIST.zip here]\].
+The key idea behind HIST is a hierarchical version of model partitioning, where we divide the global model into disjoint partitions (or submodels) per round so that each cell is responsible for training only one partition of the model, reducing client-side computational/storage costs and overall communication load. The codes of HIST for training a fully connected neural network and CNNs on FMNIST and CIFAR-10 are provided \[[https://github.com/wenzhifang/HIST here]\].
 
 
 ~~~
