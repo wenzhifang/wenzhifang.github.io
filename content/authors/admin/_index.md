@@ -51,8 +51,39 @@ education:
     institution: Shanghai University
     date_start: 2016-09-01
     date_end: 2020-07-01
+
+# Skills
+# Add your own SVG icons to `assets/media/icons/`
+skills:
+  - name: Technical Skills
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: Torch
+        description: ''
+        percent: 90
+      - name: Deepseed
+        description: ''
+        percent: 80
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Soccer
+        description: ''
+        percent: 80
+        icon: soccer
+      - name: Tennis
+        description: ''
+        percent: 70
+        icon: tennis
+      - name: Swimming
+        description: ''
+        percent: 80
+        icon: swimming
+
 ---
-
-## About Me
-
-Hello and welcome! I am currently a first-year PhD student at Purdue University, majoring in Electrical and Computer Engineering, under the supervision of [Prof. Christopher G. Brinton](#). Previous to that, I obtained my master’s degree in Electrical and Computer Engineering at ShanghaiTech University under the supervision of [Prof. Yong Zhou](#) and [Prof. Yuanming Shi](#). In addition, from Aug. 2022 to Feb. 2023, I served as a research intern in the Optimization for Machine Learning lab at KAUST led by [Prof. Peter Richtárik](#). 
+Hello and welcome! I am currently a first-year PhD student at Purdue University, majoring in Electrical and Computer Engineering, under the supervision of [Prof. Christopher G. Brinton](#). Previous to that, I obtained my master’s degree in Electrical and Computer Engineering at ShanghaiTech University under the supervision of [Prof. Yong Zhou](#) and [Prof. Yuanming Shi](#). In addition, from Aug. 2022 to Feb. 2023, I served as a research intern in the Optimization for Machine Learning lab at KAUST led by [Prof. Peter Richtárik](#).
+{style="text-align: justify;"}

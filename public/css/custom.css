@@ -1,0 +1,30 @@
+.prose {
+    font-size: 20px; /* Increase text size */
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  
+  .bio-container {
+    max-width: 80% !important;
+    width: 100% !important;
+  }
+  
+  .container {
+    max-width: 700px; /* or 800px, 900px, etc. */
+    margin: 0 auto;
+    /* possibly more properties */
+  }
+  .container {
+    max-width: 1200px !important;
+  }
