@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manuscript | Wenzhi Fang</title>
+    <link>http://localhost:1313/publication_types/manuscript/</link>
+      <atom:link href="http://localhost:1313/publication_types/manuscript/index.xml" rel="self" type="application/rss+xml" />
+    <description>Manuscript</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Manuscript</title>
+      <link>http://localhost:1313/publication_types/manuscript/</link>
+    </image>
+    
+    <item>
+      <title>Federated Sketching LoRA: On-Device Collaborative Fine-Tuning of Large Language Models</title>
+      <link>http://localhost:1313/publication/fang-2025-federatedsketchingloraondevice/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/fang-2025-federatedsketchingloraondevice/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

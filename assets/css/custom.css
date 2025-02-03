@@ -27,7 +27,6 @@ h3 {
 
 
 
-
 section#section-resume-biography-3 .avatar-wrapper {
   width: 300px !important;
   height: 300px !important;
@@ -52,3 +51,24 @@ section#section-resume-biography-3 .avatar-wrapper img {
 
 
 
+.full {
+  max-width: 80vw; /* Increase width */
+  width: 100%;
+  margin: auto;
+}
+
+.min-w-0 {
+  min-width: 100%;
+}
+
+.container {
+  max-width: 1000px; /* Or larger */
+  padding: 0 20px;
+}
+
+.blox-markdown.prose,
+.blox-markdown .prose,
+.blox-markdown .max-w-prose {
+  max-width: none !important;
+  width: 65% !important;
+}

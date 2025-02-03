@@ -26,35 +26,44 @@ sections:
       filters:
         folders:
           - publication
+        exclude_featured: false
     design:
-      view: citation
-  - block: collection
+      columns: '2'
+      view: compact
+  - block: markdown
     id: news
     content:
-      title: Recent News
+      title: News
       subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+      text: |-
+        I am looking for a internship for 2025 summer.
+#       - Nov 2024: One paper has been accepted to [IEEE Journal of Selected Areas in Sensors](https://ieee-jsas.org/).
     design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      columns: '1'
+  - block: markdown
+    id: service
+    content:
+      title: Academic Services
+      subtitle: ''
+      text: |-
+        ### Conference Reviewer
+        - [Advances in Neural Information Processing Systems (NeurIPS)](https://neurips.cc/)
+        - [International Conference on Machine Learning (ICML)](https://icml.cc/)
+        - [International Conference on Learning Representations (ICLR)](https://iclr.cc/Conferences/2025)
+        - [International Conference on Artificial Intelligence and Statistics (AISTATS)](https://aistats.org/aistats2025/)
+        - [IEEE International Conference on Computer Communications (INFOCOM)](https://infocom2024.ieee-infocom.org/)
+        ### Journal Reviewer
+        - [IEEE Transactions on Wireless Communications (TWC)](https://www.comsoc.org/publications/journals/ieee-twc)
+        - [IEEE Transactions on Communications (TCOM)](https://www.comsoc.org/publications/journals/ieee-tcom)
+        - [IEEE Transactions on Mobile Computing (TMC)](https://www.computer.org/csdl/journal/tm)
+        - [IEEE Internet of Things Journal (IoT-J)](https://ieee-iotj.org/)
+        - [IEEE Transactions on Machine Learning in Communications and Networking (TMLCN)](https://www.comsoc.org/publications/journals/ieee-tmlcn)
+    design:
+      columns: '1'
+  # - block: contact
+  #   id: contact
+  #   content:
+  #     # Optional front matter you can reference in contact.html
+  #     title: "Contact"
+  #     text: "Reach out via email or come visit!"
 ---
