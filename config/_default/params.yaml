@@ -7,8 +7,7 @@
 appearance:
   mode: system
   color: emerald
-  extra_css:
-    - assets/css/custom.css
+  customCSS: ["css/custom.css"]
 
 # SEO
 marketing:
