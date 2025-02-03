@@ -15,24 +15,29 @@ h3 {
 }
 
 
+.max-w-prose {
+  max-width:80ch !important; /* Take the full viewport width */
+  width: 100% !important; /* Ensure it expands */
+}
+
+.prose > :not(pre) {
+  max-width: 100% !important;
+  /* etc. */
+}
+
+
+
 
 section#section-resume-biography-3 .avatar-wrapper {
-  width: 250px !important;
-  height: 250px !important;
+  width: 300px !important;
+  height: 300px !important;
 }
 
 section#section-resume-biography-3 .avatar-wrapper img {
-  width: 250px !important;
-  height: 250px !important;
-  object-fit: cover;
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 10%;
 }
-
-img {
-  width: 100%;    /* 宽度自适应容器 */
-  height: auto;   /* 高度按比例自动调整 */
-  max-width: 800px; /* 最大宽度限制（根据实际需求调整） */
-}
-
 
 /* If the theme already provides a class: */
 .institution {
