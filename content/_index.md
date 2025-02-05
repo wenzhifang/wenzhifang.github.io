@@ -21,7 +21,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Recent Publications
+      title: Slected Works
       text: ""
       filters:
         folders:
@@ -36,7 +36,7 @@ sections:
       title: News
       subtitle: ''
       text: |-
-        I am looking for a internship for 2025 summer.
+        I am looking for an internship for 2025 summer.
 #       - Nov 2024: One paper has been accepted to [IEEE Journal of Selected Areas in Sensors](https://ieee-jsas.org/).
     design:
       columns: '1'
@@ -53,6 +53,7 @@ sections:
         - [International Conference on Artificial Intelligence and Statistics (AISTATS)](https://aistats.org/aistats2025/)
         - [IEEE International Conference on Computer Communications (INFOCOM)](https://infocom2024.ieee-infocom.org/)
         ### Journal Reviewer
+        - [Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/)
         - [IEEE Transactions on Wireless Communications (TWC)](https://www.comsoc.org/publications/journals/ieee-twc)
         - [IEEE Transactions on Communications (TCOM)](https://www.comsoc.org/publications/journals/ieee-tcom)
         - [IEEE Transactions on Mobile Computing (TMC)](https://www.computer.org/csdl/journal/tm)

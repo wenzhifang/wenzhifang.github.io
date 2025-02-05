@@ -14,9 +14,12 @@ h3 {
   font-size: 20px;
 }
 
+.prose {
+  max-width: 90% !important;
+}
 
 .max-w-prose {
-  max-width:80ch !important; /* Take the full viewport width */
+  max-width:100ch !important; /* Take the full viewport width */
   width: 100% !important; /* Ensure it expands */
 }
 
@@ -24,7 +27,13 @@ h3 {
   max-width: 100% !important;
   /* etc. */
 }
-
+.bio-text {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  text-align: justify !important;
+  flex-grow: 1 !important;
+}
 
 
 section#section-resume-biography-3 .avatar-wrapper {
@@ -65,10 +74,41 @@ section#section-resume-biography-3 .avatar-wrapper img {
   max-width: 1000px; /* Or larger */
   padding: 0 20px;
 }
-
-.blox-markdown.prose,
-.blox-markdown .prose,
-.blox-markdown .max-w-prose {
+.blox-markdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Ensure content is stacked */
+  width: 100% !important;
   max-width: none !important;
-  width: 65% !important;
+}
+.article-header.article-container.featured-image-wrapper {
+  display: flex;
+  justify-content: center;  /* Centers image horizontally */
+  align-items: center;  /* Centers image vertically (if necessary) */
+  width: 100% !important;
+  max-width: none !important;  /* Remove max-width restriction */
+  margin: 0 auto !important; /* Ensures it's centered */
+  text-align: center; /* Ensures inline elements like images are centered */
+}
+
+.article-header.article-container.featured-image-wrapper img {
+  max-width: 100%; /* Ensures it scales properly */
+  height: auto;
+  display: block; /* Removes inline spacing issues */
+  margin: 0 auto; /* Centers image inside container */
+}
+.hb-sidebar-container {
+  display: none !important;  /* Completely removes it */
+  width: 0 !important;
+  overflow: hidden !important;
+}
+
+@media (min-width: 768px) {
+  .md\:mt-12 {
+    margin-top: 0 !important;
+  }
+}
+#profile {
+  margin-top: -70px !important; /* Moves it up */
 }
