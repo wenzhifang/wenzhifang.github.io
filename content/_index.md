@@ -21,7 +21,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Slected Works
+      title: Selected Works
       text: ""
       filters:
         folders:
