@@ -15,7 +15,7 @@ h3 {
 }
 
 .prose {
-  max-width: 90% !important;
+  max-width: 100% !important; /* or 90% */
 }
 
 .max-w-prose {
