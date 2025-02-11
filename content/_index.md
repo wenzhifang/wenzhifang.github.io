@@ -54,6 +54,7 @@ sections:
         - [IEEE International Conference on Computer Communications (INFOCOM)](https://infocom2024.ieee-infocom.org/)
         ### Journal Reviewer
         - [Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/)
+        - [IEEE Transactions on Signal Processing (TSP)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=78)
         - [IEEE Transactions on Wireless Communications (TWC)](https://www.comsoc.org/publications/journals/ieee-twc)
         - [IEEE Transactions on Communications (TCOM)](https://www.comsoc.org/publications/journals/ieee-tcom)
         - [IEEE Transactions on Mobile Computing (TMC)](https://www.computer.org/csdl/journal/tm)
