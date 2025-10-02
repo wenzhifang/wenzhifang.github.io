@@ -34,9 +34,9 @@ profiles:
     url: https://scholar.google.com/citations?user=XdUxykMAAAAJ&hl=en
     
 interests:
-  - Distributed Optimization
-  - Efficient Machine Learning
-  - LLM fine-tuning
+  - RL-based Post-training 
+  - Efficient Fine-Tuning of LLM 
+  - Federated Learning
 
 education:
   - area: PhD Electrical and Computer Engineering

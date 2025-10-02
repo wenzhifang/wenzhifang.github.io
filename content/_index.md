@@ -36,7 +36,7 @@ sections:
       title: News
       subtitle: ''
       text: |-
-        I am looking for an internship for 2025 summer.
+        I am looking for an internship for 2026.
 #       - Nov 2024: One paper has been accepted to [IEEE Journal of Selected Areas in Sensors](https://ieee-jsas.org/).
     design:
       columns: '1'
