@@ -34,6 +34,14 @@
     </item>
     
     <item>
+      <title>Collaborative Device-Cloud LLM Inference through Reinforcement Learning</title>
+      <link>http://localhost:1313/publication/fang-2025-devicecloudcollaboration/</link>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/fang-2025-devicecloudcollaboration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Federated Sketching LoRA: On-Device Collaborative Fine-Tuning of Large Language Models</title>
       <link>http://localhost:1313/publication/fang-2025-federatedsketchingloraondevice/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
@@ -302,7 +310,7 @@
 
 
 
-&lt;div id=&#34;chart-728645319&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-924371568&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -320,7 +328,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-728645319&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-924371568&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
