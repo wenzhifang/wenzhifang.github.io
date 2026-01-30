@@ -34,10 +34,18 @@
     </item>
     
     <item>
-      <title>Collaborative Device-Cloud LLM Inference through Reinforcement Learning</title>
+      <title>Bridging On-Device and Cloud LLMs for Collaborative Reasoning: A Unified Methodology for Local Routing and Post-Training</title>
       <link>http://localhost:1313/publication/fang-2025-devicecloudcollaboration/</link>
       <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/fang-2025-devicecloudcollaboration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TAP: Two-Stage Adaptive Personalization of Multi-task and Multi-Modal Foundation Models in Federated Learning</title>
+      <link>http://localhost:1313/publication/lee-2025-tap/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lee-2025-tap/</guid>
       <description></description>
     </item>
     
@@ -310,7 +318,7 @@
 
 
 
-&lt;div id=&#34;chart-924371568&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-386571429&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -328,7 +336,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-924371568&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-386571429&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

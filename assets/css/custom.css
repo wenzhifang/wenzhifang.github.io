@@ -112,3 +112,8 @@ section#section-resume-biography-3 .avatar-wrapper img {
 #profile {
   margin-top: -70px !important; /* Moves it up */
 }
+
+/* Selected Works: display titles in sentence case (not uppercase) */
+#papers .uppercase {
+  text-transform: none !important;
+}

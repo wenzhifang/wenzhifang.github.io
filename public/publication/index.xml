@@ -13,10 +13,18 @@
     </image>
     
     <item>
-      <title>Collaborative Device-Cloud LLM Inference through Reinforcement Learning</title>
+      <title>Bridging On-Device and Cloud LLMs for Collaborative Reasoning: A Unified Methodology for Local Routing and Post-Training</title>
       <link>http://localhost:1313/publication/fang-2025-devicecloudcollaboration/</link>
       <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/fang-2025-devicecloudcollaboration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TAP: Two-Stage Adaptive Personalization of Multi-task and Multi-Modal Foundation Models in Federated Learning</title>
+      <link>http://localhost:1313/publication/lee-2025-tap/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/lee-2025-tap/</guid>
       <description></description>
     </item>
     
