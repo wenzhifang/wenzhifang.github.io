@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Wenzhi Fang</title>
-    <link>http://localhost:1313/publication/</link>
-      <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/publication/</link>
+      <atom:link href="https://example.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <url>https://example.com/media/icon_hu_645fa481986063ef.png</url>
       <title>Publications</title>
-      <link>http://localhost:1313/publication/</link>
+      <link>https://example.com/publication/</link>
     </image>
     
     <item>
       <title>Joint Continual Learning of Local Language Models and Cloud Offloading Decisions with Budget Constraints</title>
-      <link>http://localhost:1313/publication/chen-2026-joint-continual/</link>
+      <link>https://example.com/publication/chen-2026-joint-continual/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/chen-2026-joint-continual/</guid>
+      <guid>https://example.com/publication/chen-2026-joint-continual/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bridging On-Device and Cloud LLMs for Collaborative Reasoning: A Unified Methodology for Local Routing and Post-Training</title>
-      <link>http://localhost:1313/publication/fang-2025-devicecloudcollaboration/</link>
+      <link>https://example.com/publication/fang-2025-devicecloudcollaboration/</link>
       <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/fang-2025-devicecloudcollaboration/</guid>
+      <guid>https://example.com/publication/fang-2025-devicecloudcollaboration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TAP: Two-Stage Adaptive Personalization of Multi-task and Multi-Modal Foundation Models in Federated Learning</title>
-      <link>http://localhost:1313/publication/lee-2025-tap/</link>
+      <link>https://example.com/publication/lee-2025-tap/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/lee-2025-tap/</guid>
+      <guid>https://example.com/publication/lee-2025-tap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Federated Sketching LoRA: On-Device Collaborative Fine-Tuning of Large Language Models</title>
-      <link>http://localhost:1313/publication/fang-2025-federatedsketchingloraondevice/</link>
+      <link>https://example.com/publication/fang-2025-federatedsketchingloraondevice/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/fang-2025-federatedsketchingloraondevice/</guid>
+      <guid>https://example.com/publication/fang-2025-federatedsketchingloraondevice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hierarchical Federated Learning with Multi-Timescale Gradient Correction</title>
-      <link>http://localhost:1313/publication/fang-2024-hierarchical/</link>
+      <link>https://example.com/publication/fang-2024-hierarchical/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/fang-2024-hierarchical/</guid>
+      <guid>https://example.com/publication/fang-2024-hierarchical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Federated Learning over Hierarchical Wireless Networks: Training Latency Minimization via Submodel Partitioning</title>
-      <link>http://localhost:1313/publication/fang-2025-federated/</link>
+      <link>https://example.com/publication/fang-2025-federated/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/fang-2025-federated/</guid>
+      <guid>https://example.com/publication/fang-2025-federated/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Communication-efficient stochastic zeroth-order optimization for federated learning</title>
-      <link>http://localhost:1313/publication/fang-2022-communication/</link>
+      <link>https://example.com/publication/fang-2022-communication/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/fang-2022-communication/</guid>
+      <guid>https://example.com/publication/fang-2022-communication/</guid>
       <description></description>
     </item>
     

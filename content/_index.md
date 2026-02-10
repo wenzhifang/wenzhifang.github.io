@@ -43,6 +43,19 @@ sections:
         Working on optimization theory and its applications on communication system.
     design:
       columns: '1'
+  - block: markdown
+    id: news
+    content:
+      title: News
+      text: |-
+        - **Feb 2026:** Ou work on DA-GRPO, a budget-aware reinforcement learning framework enabling continual learning in device–cloud LLM systems is now on ArXiv.
+        - **Sept 2025:** Our work on device–cloud collaborative LLM reasoning, introducing an RL-based unified framework for adaptive routing and post-training is now on ArXiv.
+        - **Jan 2025:** Our work on Federated Sketching LoRA (FSLoRA), a communication-efficient framework for collaborative on-device LLM fine-tuning under heterogeneous resource constraints is now on ArXiv.
+        - **Sept 2024:** Our paper on hierarchical federated learning with multi-timescale gradient correction (MTGC) has been accepted to NeurIPS 2024.
+        - **Aug 2023:** Joined Purdue as a PhD student after completing my MS at ShanghaiTech.
+      subtitle: ''
+    design:
+      columns: '1'
   - block: collection
     id: papers
     content:
@@ -57,19 +70,6 @@ sections:
     design:
       columns: '2'
       view: liang
-  - block: markdown
-    id: news
-    content:
-      title: News
-      text: |-
-        - **Feb 2026:** Ou work on DA-GRPO, a budget-aware reinforcement learning framework enabling continual learning in device–cloud LLM systems is now on ArXiv.
-        - **Sept 2025:** Our work on device–cloud collaborative LLM reasoning, introducing an RL-based unified framework for adaptive routing and post-training is now on ArXiv.
-        - **Jan 2025:** Our work on Federated Sketching LoRA (FSLoRA), a communication-efficient framework for collaborative on-device LLM fine-tuning under heterogeneous resource constraints is now on ArXiv.
-        - **Sept 2024:** Our paper on hierarchical federated learning with multi-timescale gradient correction (MTGC) has been accepted to NeurIPS 2024.
-        - **Aug 2023:** Joined Purdue as a PhD student after completing my MS at ShanghaiTech.
-      subtitle: ''
-    design:
-      columns: '1'
   - block: markdown
     id: service
     content:
