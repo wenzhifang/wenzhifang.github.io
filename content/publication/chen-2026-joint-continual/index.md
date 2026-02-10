@@ -2,8 +2,8 @@
 title: 'Joint Continual Learning of Local Language Models and Cloud Offloading Decisions with Budget Constraints'
 featured: true
 authors:
-- Evan Chen
-- Wenzhi Fang
+- Evan Chen*
+- Wenzhi Fang*
 - Shiqiang Wang
 - Christopher Brinton
 date: '2026-01-29'

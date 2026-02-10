@@ -33,7 +33,7 @@ sections:
     content:
       title: Experience & training
       text: |-
-        **PhD Candidate, Purdue University — Electrical & Computer Engineering** (Aug 2023 — Present)  
+        **PhD, Purdue University — Electrical & Computer Engineering** (Aug 2023 — Present)  
         Working on LLM post-training and reasoning, with an emphasis on RL-based alignment, agent collaboration, and communication-efficient fine-tuning for distributed on-device LLM systems.
 
         **Research Intern, Optimization for Machine Learning Lab, KAUST** (Aug 2022 — Feb 2023)  
@@ -56,20 +56,177 @@ sections:
       subtitle: ''
     design:
       columns: '1'
-  - block: collection
+  - block: markdown
     id: papers
     content:
       title: Selected works
-      archive:
-        enable: false
-      count: 10
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
+      text: |-
+        <div class="selected-works">
+
+        <a class="selected-work-card" href="/publication/chen-2026-joint-continual/">
+          <div class="selected-work-media">
+            <img src="/publication/chen-2026-joint-continual/dagrpo-framework_hu_80a33ca626868d19.webp"
+                 alt="Joint Continual Learning of Local Language Models and Cloud Offloading Decisions with Budget Constraints">
+          </div>
+          <div class="selected-work-body">
+            <h3 class="selected-work-title">
+              Joint Continual Learning of Local Language Models and Cloud Offloading Decisions with Budget Constraints
+            </h3>
+            <p class="selected-work-summary">
+              Continual post-training framework (DA-GRPO) that jointly learns on-device SLM policies and budget-aware cloud offloading decisions to reduce forgetting while respecting assistance constraints.
+            </p>
+            <div class="selected-work-meta">
+              <div class="selected-work-authors">
+                Evan Chen*, <strong>Wenzhi Fang*</strong>, Shiqiang Wang, Christopher Brinton
+              </div>
+              <div class="selected-work-venue">
+                <em>arXiv preprint</em> · January 2026
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a class="selected-work-card" href="/publication/fang-2025-devicecloudcollaboration/">
+          <div class="selected-work-media">
+            <img src="/publication/fang-2025-devicecloudcollaboration/Overview_v5_hu_888c9a1f07e25b37.webp"
+                 alt="Bridging On-Device and Cloud LLMs for Collaborative Reasoning: A Unified Methodology for Local Routing and Post-Training">
+          </div>
+          <div class="selected-work-body">
+            <h3 class="selected-work-title">
+              Bridging On-Device and Cloud LLMs for Collaborative Reasoning: A Unified Methodology for Local Routing and Post-Training
+            </h3>
+            <p class="selected-work-summary">
+              RL-based framework that enables on-device LLMs to decide when to invoke cloud models, jointly learning routing and post-training to balance accuracy and compute.
+            </p>
+            <div class="selected-work-meta">
+              <div class="selected-work-authors">
+                <strong>Wenzhi Fang</strong>, Dong-Jun Han, Liangqi Yuan, Evan Chen, Christopher G. Brinton
+              </div>
+              <div class="selected-work-venue">
+                <em>arXiv preprint</em> · September 2025
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a class="selected-work-card" href="/publication/lee-2025-tap/">
+          <div class="selected-work-media">
+            <img src="/publication/lee-2025-tap/tap_hu_674d7ee1775d55d7.webp"
+                 alt="TAP: Two-Stage Adaptive Personalization of Multi-task and Multi-Modal Foundation Models in Federated Learning">
+          </div>
+          <div class="selected-work-body">
+            <h3 class="selected-work-title">
+              TAP: Two-Stage Adaptive Personalization of Multi-task and Multi-Modal Foundation Models in Federated Learning
+            </h3>
+            <p class="selected-work-summary">
+              Personalization algorithm for multi-task, multi-modal foundation models that combines architecture-aware replacement with post-FL knowledge distillation.
+            </p>
+            <div class="selected-work-meta">
+              <div class="selected-work-authors">
+                Seohyun Lee, <strong>Wenzhi Fang</strong>, Dong-Jun Han, Seyyedali Hosseinalipour, Christopher G. Brinton
+              </div>
+              <div class="selected-work-venue">
+                <em>arXiv preprint</em> · September 2025
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a class="selected-work-card" href="/publication/fang-2025-federatedsketchingloraondevice/">
+          <div class="selected-work-media">
+            <img src="/publication/fang-2025-federatedsketchingloraondevice/fslora_hu_8194dc94648cf45.webp"
+                 alt="Federated Sketching LoRA: On-Device Collaborative Fine-Tuning of Large Language Models">
+          </div>
+          <div class="selected-work-body">
+            <h3 class="selected-work-title">
+              Federated Sketching LoRA: On-Device Collaborative Fine-Tuning of Large Language Models
+            </h3>
+            <p class="selected-work-summary">
+              Communication-efficient framework that uses sketching to adapt LoRA ranks per device, enabling collaborative on-device LLM fine-tuning under heterogeneous resources.
+            </p>
+            <div class="selected-work-meta">
+              <div class="selected-work-authors">
+                <strong>Wenzhi Fang</strong>, Dong-Jun Han, Liangqi Yuan, Seyyedali Hosseinalipour, Christopher G. Brinton
+              </div>
+              <div class="selected-work-venue">
+                <em>arXiv preprint</em> · January 2025
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a class="selected-work-card" href="/publication/fang-2024-hierarchical/">
+          <div class="selected-work-media">
+            <img src="/publication/fang-2024-hierarchical/correction_dongjun_hu_e7f6e53c83253a93.webp"
+                 alt="Hierarchical Federated Learning with Multi-Timescale Gradient Correction">
+          </div>
+          <div class="selected-work-body">
+            <h3 class="selected-work-title">
+              Hierarchical Federated Learning with Multi-Timescale Gradient Correction
+            </h3>
+            <p class="selected-work-summary">
+              Multi-timescale gradient correction method that stabilizes hierarchical FL across client and group levels, with convergence guarantees robust to data heterogeneity.
+            </p>
+            <div class="selected-work-meta">
+              <div class="selected-work-authors">
+                <strong>Wenzhi Fang</strong>, Dong-Jun Han, Evan Chen, Shiqiang Wang, Christopher G. Brinton
+              </div>
+              <div class="selected-work-venue">
+                <em>NeurIPS 2024</em> · September 2024
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a class="selected-work-card" href="/publication/fang-2025-federated/">
+          <div class="selected-work-media">
+            <img src="/publication/fang-2025-federated/neural_partition_hu_77cb6237b1937f84.webp"
+                 alt="Federated Learning over Hierarchical Wireless Networks: Training Latency Minimization via Submodel Partitioning">
+          </div>
+          <div class="selected-work-body">
+            <h3 class="selected-work-title">
+              Federated Learning over Hierarchical Wireless Networks: Training Latency Minimization via Submodel Partitioning
+            </h3>
+            <p class="selected-work-summary">
+              HIST framework that partitions large models into submodels across cells to reduce computation, storage, and communication while meeting convergence guarantees.
+            </p>
+            <div class="selected-work-meta">
+              <div class="selected-work-authors">
+                <strong>Wenzhi Fang</strong>, Dong-Jun Han, Christopher G. Brinton
+              </div>
+              <div class="selected-work-venue">
+                <em>IEEE/ACM Transactions on Networking</em> · February 2024
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a class="selected-work-card" href="/publication/fang-2022-communication/">
+          <div class="selected-work-media">
+            <img src="/publication/fang-2022-communication/zeroth_order_hu_829e5fd3c7248efa.webp"
+                 alt="Communication-efficient stochastic zeroth-order optimization for federated learning">
+          </div>
+          <div class="selected-work-body">
+            <h3 class="selected-work-title">
+              Communication-efficient stochastic zeroth-order optimization for federated learning
+            </h3>
+            <p class="selected-work-summary">
+              FedZO algorithm for derivative-free federated optimization, with AirComp-assisted variant to preserve convergence under noisy wireless aggregation.
+            </p>
+            <div class="selected-work-meta">
+              <div class="selected-work-authors">
+                <strong>Wenzhi Fang</strong>, Ziyi Yu, Yuning Jiang, Yuanming Shi, Colin N. Jones, Yong Zhou
+              </div>
+              <div class="selected-work-venue">
+                <em>IEEE Transactions on Signal Processing</em> · January 2022
+              </div>
+            </div>
+          </div>
+        </a>
+
+        </div>
     design:
-      columns: '2'
-      view: liang
+      columns: '1'
   - block: markdown
     id: service
     content:
