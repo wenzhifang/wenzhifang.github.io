@@ -1,5 +1,5 @@
 ---
-title: Hierarchical federated learning with multi-timescale gradient correction
+title: Hierarchical Federated Learning with Multi-Timescale Gradient Correction
 featured: true
 authors:
 - Wenzhi Fang
@@ -11,9 +11,9 @@ date: '2024-09-01'
 publishDate: '2025-02-03T20:19:27.304621Z'
 publication_types:
 - article-journal
-publication_short: ""
+publication_short: "NeurIPS 2024"
 abstract: While traditional federated learning (FL) typically focuses on a star topology where clients are directly connected to a central server, real-world distributed systems often exhibit hierarchical architectures. Hierarchical FL (HFL) has emerged as a promising solution to bridge this gap, leveraging aggregation points at multiple levels of the system. However, existing algorithms for HFL encounter challenges in dealing with multi-timescale model drift, i.e., model drift occurring across hierarchical levels of data heterogeneity. In this paper, we propose a multi-timescale gradient correction (MTGC) methodology to resolve this issue. Our key idea is to introduce distinct control variables to (i) correct the client gradient towards the group gradient, i.e., to reduce client model drift caused by local updates based on individual datasets, and (ii) correct the group gradient towards the global gradient, i.e., to reduce group model drift caused by FL over clients within the group. We analytically characterize the convergence behavior of MTGC under general non-convex settings, overcoming challenges associated with couplings between correction terms. We show that our convergence bound is immune to the extent of data heterogeneity, confirming the stability of the proposed algorithm against multi-level non-i.i.d. data. Through extensive experiments on various datasets and models, we validate the effectiveness of MTGC in diverse HFL settings.
-publication: '*NeurIPS*'
+publication: '*NeurIPS 2024*'
 image:
   filename: correction_dongjun.png
 links:

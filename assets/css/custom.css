@@ -1,119 +1,591 @@
-.prose {
-  font-size: 20px; /* Increase text size */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --page-bg: #03040f;
+  --section-bg: rgba(6, 8, 20, 0.82);
+  --section-border: rgba(255, 255, 255, 0.12);
+  --accent: #7cb6ff;
+  --muted: rgba(255, 255, 255, 0.78);
+  --text-primary: #f6f7fb;
+  --text-muted: rgba(255, 255, 255, 0.78);
+  --link-color: var(--accent);
+  --glow: 0 25px 60px rgba(3, 5, 18, 0.9);
+  --font-family: "Times New Roman", "Times", serif;
 }
 
-h1 {
-  font-size: 36px;
+* {
+  box-sizing: border-box;
 }
 
-h2 {
-  font-size: 30px;
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at 10% -5%, rgba(124, 182, 255, 0.25), transparent 45%),
+    radial-gradient(circle at 90% 0%, rgba(255, 255, 255, 0.08), transparent 40%), var(--page-bg);
+  color: var(--text-primary);
+  font-family: var(--font-family);
 }
 
-h3 {
-  font-size: 20px;
+/* Navbar sizing */
+header nav a,
+.navbar a,
+.navbar-menu a {
+  font-size: 22px !important;
+  font-weight: 700 !important;
 }
 
-.prose {
-  max-width: 100% !important; /* or 90% */
+.light,
+:root:not(.dark) {
+  --text-primary: #05060f;
+  --text-muted: rgba(5, 6, 15, 0.78);
+  --link-color: #0037ff;
 }
 
-.max-w-prose {
-  max-width:100ch !important; /* Take the full viewport width */
-  width: 100% !important; /* Ensure it expands */
+.light body,
+:root:not(.dark) body {
+  color: var(--text-primary);
+  background: radial-gradient(circle at 10% -5%, rgba(255, 255, 255, 0.4), transparent 45%),
+    radial-gradient(circle at 90% 0%, rgba(255, 255, 255, 0.2), transparent 40%), #e6ecff;
 }
 
-.prose > :not(pre) {
-  max-width: 100% !important;
-  /* etc. */
-}
-.bio-text {
-  display: block !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  text-align: justify !important;
-  flex-grow: 1 !important;
-}
-
-
-section#section-resume-biography-3 .avatar-wrapper {
-  width: 300px !important;
-  height: 300px !important;
+.light .resume-biography,
+.light .liang-card,
+.light .hbb-section:not(#section-resume-biography-3),
+:root:not(.dark) .resume-biography,
+:root:not(.dark) .liang-card,
+:root:not(.dark) .hbb-section:not(#section-resume-biography-3) {
+  color: var(--text-primary);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(230, 234, 255, 0.9));
+  border-color: rgba(10, 20, 40, 0.08);
+  box-shadow: 0 10px 20px rgba(10, 10, 10, 0.15);
 }
 
-section#section-resume-biography-3 .avatar-wrapper img {
+.light .resume-biography *,
+.light .liang-card *,
+.light .hbb-section *,
+:root:not(.dark) .resume-biography *,
+:root:not(.dark) .liang-card *,
+:root:not(.dark) .hbb-section * {
+  color: var(--text-primary) !important;
+}
+
+.light .liang-card-publication,
+:root:not(.dark) .liang-card-publication {
+  color: #7cb6ff !important;
+}
+
+.resume-biography .bio-text {
+  font-size: clamp(1.05rem, 1.5vw, 1.2rem);
+  letter-spacing: 0.01em;
+  color: var(--text-muted);
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.resume-biography .bio-text p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+:root:not(.dark) .resume-biography .bio-text,
+:root:not(.dark) .hbb-section .prose,
+:root:not(.dark) .hbb-section .prose p,
+:root:not(.dark) .hbb-section span.section-subheading,
+:root:not(.dark) .liang-card-meta,
+:root:not(.dark) .liang-card-link,
+:root:not(.dark) .liang-card-publication {
+  color: #05060f !important;
+}
+
+section.hbb-section {
+  width: min(1100px, 100%);
+  margin: 0 auto 1.75rem;
+}
+
+section#section-resume-biography-3 {
+  padding: 0;
+}
+
+/* Hide the empty contact box that appears after Academic Services */
+section#contact {
+  display: none;
+}
+
+.resume-biography {
+  background: linear-gradient(145deg, rgba(124, 182, 255, 0.16), rgba(6, 8, 24, 0.95));
+  border-radius: 36px;
+  border: 1px solid var(--section-border);
+  padding: clamp(1.5rem, 2vw, 2.75rem);
+  box-shadow: var(--glow);
+  gap: clamp(1.25rem, 2vw, 3rem);
+}
+
+.resume-biography .avatar-wrapper {
+  width: clamp(140px, 15vw, 210px);
+  height: clamp(140px, 15vw, 210px);
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 0.65rem;
+}
+
+.resume-biography .avatar {
   width: 100%;
-  margin-top: 10%;
-  margin-left: 10%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 28px;
 }
 
-/* If the theme already provides a class: */
-.institution {
-  color: #FF5733; /* pick any color */
-  font-weight: bold;
+.resume-biography .portrait-title .text-3xl {
+  font-size: clamp(1.75rem, 2.5vw, 2.25rem);
+  letter-spacing: 0.02em;
+  text-transform: none !important; /* "Wenzhi Fang" not "WENZHI FANG" */
 }
 
-/* If you introduced your own class in the Markdown: */
-.myInstitution {
-  color: rebeccapurple; 
+.resume-biography .portrait-title h3 {
+  letter-spacing: 0.18em;
+  text-transform: none; /* show name as "Wenzhi Fang" not "WENZHI FANG" */
+  color: rgba(255, 255, 255, 0.8);
 }
 
-
-
-.full {
-  max-width: 80vw; /* Increase width */
-  width: 100%;
-  margin: auto;
+.resume-biography .network-icon svg {
+  color: rgba(255, 255, 255, 0.85);
 }
 
-.min-w-0 {
-  min-width: 100%;
-}
-
-.container {
-  max-width: 1000px; /* Or larger */
-  padding: 0 20px;
-}
-.blox-markdown {
-  display: flex;
-  justify-content: center;
+.resume-biography a.inline-flex {
+  display: inline-flex;
   align-items: center;
-  flex-direction: column; /* Ensure content is stacked */
-  width: 100% !important;
-  max-width: none !important;
-}
-.article-header.article-container.featured-image-wrapper {
-  display: flex;
-  justify-content: center;  /* Centers image horizontally */
-  align-items: center;  /* Centers image vertically (if necessary) */
-  width: 100% !important;
-  max-width: none !important;  /* Remove max-width restriction */
-  margin: 0 auto !important; /* Ensures it's centered */
-  text-align: center; /* Ensures inline elements like images are centered */
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.65rem 1.35rem;
+  border-radius: 999px;
+  background: #fff;
+  color: #05060f;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 12px 30px rgba(5, 8, 20, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.article-header.article-container.featured-image-wrapper img {
-  max-width: 100%; /* Ensures it scales properly */
-  height: auto;
-  display: block; /* Removes inline spacing issues */
-  margin: 0 auto; /* Centers image inside container */
+.resume-biography a.inline-flex:hover {
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 0 16px 35px rgba(5, 8, 20, 0.45);
 }
-.hb-sidebar-container {
-  display: none !important;  /* Completely removes it */
-  width: 0 !important;
-  overflow: hidden !important;
+
+/* Download CV button: right-aligned but with space from the edge */
+.resume-biography .flex-auto > a.inline-flex {
+  display: flex;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+section.hbb-section:not(#section-resume-biography-3) {
+  border-radius: 32px;
+  border: 1px solid var(--section-border);
+  background: linear-gradient(145deg, rgba(124, 182, 255, 0.16), rgba(6, 8, 24, 0.95));
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(22px);
+  padding: clamp(1.5rem, 2vw, 2.75rem);
+}
+
+section.hbb-section .text-3xl {
+  font-family: var(--font-family);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: clamp(1.5rem, 2vw, 1.95rem);
+  color: var(--text-muted);
+}
+
+section.hbb-section .prose,
+section.hbb-section .prose p {
+  color: var(--text-muted);
+  max-width: 100% !important;
+}
+
+section.hbb-section .prose strong {
+  color: var(--text-primary);
+}
+
+section.hbb-section ul {
+  padding-left: 1.25rem;
+  list-style: none;
+}
+
+section.hbb-section ul li {
+  position: relative;
+  padding-left: 1rem;
+  margin-bottom: 0.35rem;
+  color: var(--text-muted);
+}
+
+section.hbb-section ul li::before {
+  content: '';
+  width: 0.43rem;
+  height: 0.43rem;
+  border-radius: 50%;
+  background: var(--accent);
+  position: absolute;
+  left: 0;
+  top: 0.45rem;
+}
+
+:root:not(.dark) section.hbb-section ul li {
+  color: rgba(5, 6, 15, 0.75);
+}
+
+section.hbb-section span.section-subheading {
+  letter-spacing: 0.25em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+/* Publication page width + justified body text */
+/* Widen the outer content wrapper on publication-style pages (body may not have page-publication) */
+.page-body:has(article.w-full) .max-w-screen-xl {
+  max-width: 1600px !important;
+  width: min(1600px, 98vw) !important;
+}
+
+.page-publication .container,
+.page-publication .universal-wrapper,
+.page-publication main,
+.page-publication .article-container,
+.page-publication .main-content {
+  max-width: 1400px !important;
+  width: min(1400px, 96vw) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.page-publication main.max-w-6xl,
+.page-publication .max-w-6xl {
+  max-width: 1400px !important;
+  width: min(1400px, 96vw) !important;
+}
+
+.page-publication article {
+  justify-content: flex-start !important;
+}
+
+/* Fallback: publication pages with max-w-6xl main but without page-publication class */
+/* Blow away Tailwind max widths on publication pages */
+article.w-full > main.max-w-6xl,
+article.w-full > main.w-full.max-w-6xl,
+article.w-full > main.w-full {
+  max-width: none !important;
+  width: min(1600px, 98vw) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Remove prose width clamps */
+article.w-full .prose,
+article.w-full .prose * {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Remove max-w-prose clamp on grids inside publication pages */
+article.w-full .max-w-prose {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Featured image/diagram on publication pages: align with abstract text column only */
+article.w-full .featured-image-wrapper,
+.page-publication .featured-image-wrapper {
+  max-width: 100% !important;
+  width: 100% !important;
+  max-height: none !important; /* allow wrapper to grow so image doesn't overflow onto text */
+  overflow: hidden; /* contain image; no overlap with Abstract */
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Match abstract grid: label column 200px + gap 1rem; image aligns with text column */
+@media (min-width: 768px) {
+  article.w-full .featured-image-wrapper,
+  .page-publication .featured-image-wrapper {
+    margin-left: calc(200px + 1rem) !important;
+    width: calc(100% - 200px - 1rem) !important;
+    max-width: calc(100% - 200px - 1rem) !important;
+  }
+}
+
+/* Scale image inside wrapper so wrapper height follows image (no overflow) */
+article.w-full .featured-image-wrapper .featured-image,
+article.w-full .featured-image-wrapper img,
+.page-publication .featured-image-wrapper .featured-image,
+.page-publication .featured-image-wrapper img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  vertical-align: top;
+}
+
+article.w-full main .max-w-prose,
+article.w-full main .prose,
+article.w-full main .article-style,
+article.w-full main .article-body,
+article.w-full main .content {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Force prose blocks to full width on publication pages and similar layouts */
+article.w-full .prose,
+article.w-full .prose * {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Broader text columns on publication pages */
+.page-publication [class*="prose"],
+.page-publication [class*="prose"] * {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.page-publication main {
+  max-width: 1600px !important;
+  width: min(1600px, 98vw) !important;
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+}
+
+.page-publication main.px-6 {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.page-publication .article-container .max-w-prose,
+.page-publication .article-container .prose,
+.page-publication .article-style,
+.page-publication .article-body,
+.page-publication .content {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.page-publication .article-style,
+.page-publication .article-style p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+/* Justify abstract and metadata text so right edge aligns like the left; larger font for abstract */
+article.w-full main .max-w-prose.grid,
+article.w-full main .max-w-prose.grid > div {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  font-size: 1.25rem; /* 20px; larger for readability */
+  line-height: 1.7;
+}
+
+/* Larger "Abstract" title */
+article.w-full main .max-w-prose.grid > div:first-child {
+  font-size: 1.75rem !important; /* 28px */
+  font-weight: 700;
+}
+
+.blox-collection .container,
+.blox-collection .container > div {
+  background: rgba(14, 20, 42, 0.9);
+  border-radius: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.7);
+}
+
+.blox-collection a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.blox-collection img {
+  border-radius: 22px;
+  filter: saturate(1.05) contrast(1.05);
+  transition: transform 0.5s ease;
+}
+
+.blox-collection img:hover {
+  transform: scale(1.04);
+}
+
+.blox-collection .p-8 {
+  padding: clamp(1.5rem, 2vw, 2rem) !important;
+}
+
+.blox-collection .uppercase {
+  text-transform: none !important;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: #b7d4ff;
+}
+
+.home-section-bg {
+  display: none !important;
+}
+
+.hbb-section .max-w-prose {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+.hbb-section .flex.max-w-prose {
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.hbb-section .flex.flex-col.items-center {
+  align-items: flex-start;
+}
+
+.hbb-section .text-3xl {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.liang-card {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: 0 24px 50px rgba(2, 6, 20, 0.5);
+  overflow: hidden;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.liang-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(124, 182, 255, 0.35);
+  box-shadow: 0 34px 60px rgba(4, 8, 32, 0.65);
+}
+
+.liang-card-row {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 768px) {
-  .md\:mt-12 {
-    margin-top: 0 !important;
+  .liang-card-row {
+    flex-direction: row;
   }
 }
-#profile {
-  margin-top: -70px !important; /* Moves it up */
+
+.liang-card-media {
+  flex: 0 0 220px;
+  position: relative;
+  overflow: hidden;
 }
 
-/* Selected Works: display titles in sentence case (not uppercase) */
-#papers .uppercase {
-  text-transform: none !important;
+.liang-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.liang-card:hover .liang-card-media img {
+  transform: scale(1.05);
+}
+
+.liang-card-body {
+  flex: 1;
+  padding: clamp(1.5rem, 2vw, 2.25rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.liang-card-venue {
+  font-size: 0.65rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.liang-card-title {
+  margin: 0.25rem 0 0;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  color: var(--text-primary);
+  line-height: 1.35;
+  font-family: "Times New Roman", "Times", serif;
+}
+
+.liang-card-summary {
+  margin-top: 0.75rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.liang-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0.75rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  gap: 0.45rem;
+}
+
+.liang-card-link {
+  padding: 0.15rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  font-size: 0.6rem;
+  color: var(--text-muted);
+}
+
+.liang-card-publication {
+  margin-top: 0.45rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: none;
+  color: #7cb6ff;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 0.75rem;
+  font-family: "Space Grotesk", "Inter", system-ui, -apple-system, sans-serif;
+}
+
+.liang-collection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+@media (max-width: 768px) {
+  section.hbb-section,
+  section#section-resume-biography-3 {
+    width: calc(100% - 2rem);
+    padding: 0 !important;
+  }
+
+  .resume-biography {
+    border-radius: 24px;
+    padding: 1.25rem;
+  }
 }

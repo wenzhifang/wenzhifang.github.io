@@ -5,12 +5,20 @@
     <link>http://localhost:1313/publication_types/manuscript/</link>
       <atom:link href="http://localhost:1313/publication_types/manuscript/index.xml" rel="self" type="application/rss+xml" />
     <description>Manuscript</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
       <title>Manuscript</title>
       <link>http://localhost:1313/publication_types/manuscript/</link>
     </image>
+    
+    <item>
+      <title>Joint Continual Learning of Local Language Models and Cloud Offloading Decisions with Budget Constraints</title>
+      <link>http://localhost:1313/publication/chen-2026-joint-continual/</link>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chen-2026-joint-continual/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bridging On-Device and Cloud LLMs for Collaborative Reasoning: A Unified Methodology for Local Routing and Post-Training</title>
