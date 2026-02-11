@@ -75,7 +75,7 @@ header nav a,
 }
 
 .resume-biography .bio-text {
-  font-size: clamp(1.2rem, 1.5vw, 1.35rem);
+  font-size: clamp(1.15rem, 1.45vw, 1.3rem);
   letter-spacing: 0.01em;
   color: var(--text-muted);
   text-align: justify;
@@ -142,17 +142,15 @@ section#contact {
 .resume-biography .avatar-wrapper {
   width: 230px !important;
   height: auto !important;
-  min-height: 280px !important;
   border-radius: 32px;
   background: rgba(255, 255, 255, 0.12);
   padding: 0.65rem;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .resume-biography .avatar {
   width: 100% !important;
   height: auto !important;
-  aspect-ratio: 734 / 1024 !important;
   object-fit: contain !important;
   display: block !important;
   border-radius: 28px !important;
@@ -245,12 +243,39 @@ section#contact {
   box-shadow: 0 16px 35px rgba(5, 8, 20, 0.45);
 }
 
-/* Download CV button: right-aligned but with space from the edge */
-.resume-biography .flex-auto > a.inline-flex {
+/* Download CV button: in left profile section below social icons */
+.resume-biography #profile > a.inline-flex {
   display: flex;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: 2rem;
+  width: 100%;
+  max-width: 200px;
+  justify-content: center;
+  margin: 1rem auto 0;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  color: #ffffff !important;
+  transition: all 0.3s ease;
+}
+
+.resume-biography #profile > a.inline-flex:hover {
+  background: rgba(255, 255, 255, 0.12) !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.resume-biography #profile > a.inline-flex svg {
+  color: #ffffff !important;
+}
+
+/* Light mode: black text for button */
+.light .resume-biography #profile > a.inline-flex,
+:root:not(.dark) .resume-biography #profile > a.inline-flex {
+  color: #05060f !important;
+}
+
+.light .resume-biography #profile > a.inline-flex svg,
+:root:not(.dark) .resume-biography #profile > a.inline-flex svg {
+  color: #05060f !important;
 }
 
 section.hbb-section:not(#section-resume-biography-3) {
