@@ -39,15 +39,15 @@ interests:
   - Federated Learning
 
 education:
-  - area: PhD Electrical and Computer Engineering
+  - area: PhD in ECE Department
     institution: Purdue University
     date_start: 2023-08-01
     date_end: 2027-05-01
-  - area: MS Electrical and Computer Engineering
+  - area: MS in ECE Department
     institution: ShanghaiTech
     date_start: 2020-09-01
     date_end: 2023-07-01
-  - area: BS Electrical Engineering
+  - area: BS in EE Department  
     institution: Shanghai University
     date_start: 2016-09-01
     date_end: 2020-07-01

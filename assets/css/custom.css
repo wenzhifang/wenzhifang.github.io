@@ -30,7 +30,7 @@ body {
 header nav a,
 .navbar a,
 .navbar-menu a {
-  font-size: 22px !important;
+  font-size: 26px !important;
   font-weight: 700 !important;
 }
 
@@ -75,7 +75,7 @@ header nav a,
 }
 
 .resume-biography .bio-text {
-  font-size: clamp(1.05rem, 1.5vw, 1.2rem);
+  font-size: clamp(1.2rem, 1.5vw, 1.35rem);
   letter-spacing: 0.01em;
   color: var(--text-muted);
   text-align: justify;
@@ -108,6 +108,9 @@ section.hbb-section {
 
 section#section-resume-biography-3 {
   padding: 0;
+  height: auto;
+  min-height: fit-content;
+  overflow: visible;
 }
 
 /* Hide the empty contact box that appears after Academic Services */
@@ -119,30 +122,97 @@ section#contact {
   background: linear-gradient(145deg, rgba(124, 182, 255, 0.16), rgba(6, 8, 24, 0.95));
   border-radius: 36px;
   border: 1px solid var(--section-border);
-  padding: clamp(1.5rem, 2vw, 2.75rem);
+  padding: clamp(1.5rem, 2vw, 2.75rem) clamp(1.5rem, 2vw, 2.75rem) clamp(2.5rem, 3vw, 3.75rem) clamp(1.5rem, 2vw, 2.75rem);
   box-shadow: var(--glow);
   gap: clamp(1.25rem, 2vw, 3rem);
+  min-height: fit-content;
+  height: auto;
+  overflow: visible;
+  align-items: flex-start; /* Align top edges */
+}
+
+/* Move left profile section up on desktop to align with bio text */
+@media (min-width: 768px) {
+  .resume-biography .flex-none,
+  .resume-biography #profile {
+    margin-top: -2rem !important;
+  }
 }
 
 .resume-biography .avatar-wrapper {
-  width: clamp(140px, 15vw, 210px);
-  height: clamp(140px, 15vw, 210px);
+  width: 230px !important;
+  height: auto !important;
+  min-height: 280px !important;
   border-radius: 32px;
   background: rgba(255, 255, 255, 0.12);
   padding: 0.65rem;
+  overflow: visible;
 }
 
 .resume-biography .avatar {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 28px;
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 734 / 1024 !important;
+  object-fit: contain !important;
+  display: block !important;
+  border-radius: 28px !important;
+  padding: 0 !important;
+}
+
+/* Ensure the interests/education grid doesn't get cut off */
+.resume-biography .grid {
+  min-height: fit-content;
+  height: auto;
+  overflow: visible;
+}
+
+/* Increase font size for interests and education sections */
+.resume-biography .grid li,
+.resume-biography .grid p,
+.resume-biography .grid div {
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+
+/* Increase font size for section headings in biography */
+.resume-biography h2,
+.resume-biography .text-xl {
+  font-size: 1.4rem !important;
+}
+
+/* Ensure the flex container grows with content */
+.resume-biography .flex-auto {
+  min-height: fit-content;
+  height: auto;
+  margin-top: 0rem !important; /* Reduce gap between left profile section and right text */
+}
+
+@media (min-width: 768px) {
+  .resume-biography .flex-auto {
+    margin-top: 0rem !important; /* Remove md:mt-12 margin on larger screens */
+  }
+}
+
+/* Ensure flex children don't get cut off */
+.resume-biography > .flex,
+.resume-biography.flex {
+  min-height: fit-content;
+  height: auto;
+  overflow: visible;
+  align-items: flex-start;
+}
+
+.resume-biography .portrait-title {
+  margin-top: 0rem !important;
+  padding-top: 0rem !important;
 }
 
 .resume-biography .portrait-title .text-3xl {
   font-size: clamp(1.75rem, 2.5vw, 2.25rem);
   letter-spacing: 0.02em;
   text-transform: none !important; /* "Wenzhi Fang" not "WENZHI FANG" */
+  margin-top: 0rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .resume-biography .portrait-title h3 {
@@ -204,10 +274,13 @@ section.hbb-section .prose,
 section.hbb-section .prose p {
   color: var(--text-muted);
   max-width: 100% !important;
+  font-size: 1.25rem;
+  line-height: 1.7;
 }
 
 section.hbb-section .prose strong {
   color: var(--text-primary);
+  font-size: 1.25rem;
 }
 
 section.hbb-section ul {
@@ -220,6 +293,8 @@ section.hbb-section ul li {
   padding-left: 1rem;
   margin-bottom: 0.35rem;
   color: var(--text-muted);
+  font-size: 1.2rem;
+  line-height: 1.7;
 }
 
 section.hbb-section ul li::before {
@@ -709,6 +784,6 @@ a:hover {
 
   .resume-biography {
     border-radius: 24px;
-    padding: 1.25rem;
+    padding: 1.25rem 1.25rem 2.5rem 1.25rem;
   }
 }
