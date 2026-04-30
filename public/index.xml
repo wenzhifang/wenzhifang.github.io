@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>Bridging On-Device and Cloud LLMs for Collaborative Reasoning: A Unified Methodology for Local Routing and Post-Training</title>
+      <link>http://localhost:1313/publication/fang-2025-devicecloudcollaboration/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/fang-2025-devicecloudcollaboration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Federated Sketching LoRA: On-Device Collaborative Fine-Tuning of Large Language Models</title>
+      <link>http://localhost:1313/publication/fang-2025-federatedsketchingloraondevice/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/fang-2025-federatedsketchingloraondevice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Joint Continual Learning of Local Language Models and Cloud Offloading Decisions with Budget Constraints</title>
       <link>http://localhost:1313/publication/chen-2026-joint-continual/</link>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
@@ -21,26 +37,10 @@
     </item>
     
     <item>
-      <title>Bridging On-Device and Cloud LLMs for Collaborative Reasoning: A Unified Methodology for Local Routing and Post-Training</title>
-      <link>http://localhost:1313/publication/fang-2025-devicecloudcollaboration/</link>
-      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/fang-2025-devicecloudcollaboration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>TAP: Two-Stage Adaptive Personalization of Multi-task and Multi-Modal Foundation Models in Federated Learning</title>
       <link>http://localhost:1313/publication/lee-2025-tap/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/lee-2025-tap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Federated Sketching LoRA: On-Device Collaborative Fine-Tuning of Large Language Models</title>
-      <link>http://localhost:1313/publication/fang-2025-federatedsketchingloraondevice/</link>
-      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/fang-2025-federatedsketchingloraondevice/</guid>
       <description></description>
     </item>
     
@@ -297,7 +297,7 @@
 
 
 
-&lt;div id=&#34;chart-685974321&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-529718463&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -315,7 +315,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-685974321&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-529718463&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

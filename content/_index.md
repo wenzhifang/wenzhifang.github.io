@@ -24,7 +24,7 @@ sections:
       text: |-
         My work focuses on LLM post-training and Multi-agent LLM systems:
         - **RL-based Post Training**, developing reinforcement learning frameworks for adaptive control and collaboration of multi-agent LLM systems.
-        - **Efficient On-deive LLM fine-tuning**, enabling distributed on-device LLM fine-tuning under computation, communication, and memory constraints.
+        - **Efficient On-device LLM fine-tuning**, enabling distributed on-device LLM fine-tuning under computation, communication, and memory constraints.
         - **Federated learning and optimization**, designing efficient and convergent algroithm for distributed model training.
     design:
       columns: '1'
@@ -86,29 +86,6 @@ sections:
           </div>
         </a>
 
-        <a class="selected-work-card" href="/publication/fang-2025-devicecloudcollaboration/">
-          <div class="selected-work-media">
-            <img src="/publication/fang-2025-devicecloudcollaboration/Overview_v5_hu_888c9a1f07e25b37.webp"
-                 alt="Bridging On-Device and Cloud LLMs for Collaborative Reasoning: A Unified Methodology for Local Routing and Post-Training">
-          </div>
-          <div class="selected-work-body">
-            <h3 class="selected-work-title">
-              Bridging On-Device and Cloud LLMs for Collaborative Reasoning: A Unified Methodology for Local Routing and Post-Training
-            </h3>
-            <p class="selected-work-summary">
-              RL-based framework that enables on-device LLMs to decide when to invoke cloud models, jointly learning routing and post-training to balance accuracy and compute.
-            </p>
-            <div class="selected-work-meta">
-              <div class="selected-work-authors">
-                <strong>Wenzhi Fang</strong>, Dong-Jun Han, Liangqi Yuan, Evan Chen, Christopher G. Brinton
-              </div>
-              <div class="selected-work-venue">
-                <em>arXiv preprint</em> · September 2025
-              </div>
-            </div>
-          </div>
-        </a>
-
         <a class="selected-work-card" href="/publication/lee-2025-tap/">
           <div class="selected-work-media">
             <img src="/publication/lee-2025-tap/tap_hu_674d7ee1775d55d7.webp"
@@ -132,6 +109,29 @@ sections:
           </div>
         </a>
 
+        <a class="selected-work-card" href="/publication/fang-2025-devicecloudcollaboration/">
+          <div class="selected-work-media">
+            <img src="/publication/fang-2025-devicecloudcollaboration/Overview_v5_hu_888c9a1f07e25b37.webp"
+                 alt="Bridging On-Device and Cloud LLMs for Collaborative Reasoning: A Unified Methodology for Local Routing and Post-Training">
+          </div>
+          <div class="selected-work-body">
+            <h3 class="selected-work-title">
+              Bridging On-Device and Cloud LLMs for Collaborative Reasoning: A Unified Methodology for Local Routing and Post-Training
+            </h3>
+            <p class="selected-work-summary">
+              RL-based framework that enables on-device LLMs to decide when to invoke cloud models, jointly learning routing and post-training to balance accuracy and compute.
+            </p>
+            <div class="selected-work-meta">
+              <div class="selected-work-authors">
+                <strong>Wenzhi Fang</strong>, Dong-Jun Han, Liangqi Yuan, Evan Chen, Christopher G. Brinton
+              </div>
+              <div class="selected-work-venue">
+                <em>ICML 2026</em> · April 2026
+              </div>
+            </div>
+          </div>
+        </a>
+
         <a class="selected-work-card" href="/publication/fang-2025-federatedsketchingloraondevice/">
           <div class="selected-work-media">
             <img src="/publication/fang-2025-federatedsketchingloraondevice/fslora_hu_8194dc94648cf45.webp"
@@ -149,7 +149,7 @@ sections:
                 <strong>Wenzhi Fang</strong>, Dong-Jun Han, Liangqi Yuan, Seyyedali Hosseinalipour, Christopher G. Brinton
               </div>
               <div class="selected-work-venue">
-                <em>arXiv preprint</em> · January 2025
+                <em>ICML 2026</em> · April 2026
               </div>
             </div>
           </div>
