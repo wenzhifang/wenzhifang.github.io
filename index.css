@@ -135,9 +135,9 @@ section[id]{ scroll-margin-top: calc(var(--nav-h) + 20px); }
 }
 
 .head-img{
-  background: url('./images/avatar.jpg') center/cover no-repeat;
-  width: 210px; height: 210px;
-  border-radius: 50%;
+  background: url('./images/avatar.jpg') center top/cover no-repeat;
+  width: 200px; height: 252px;  /* portrait 0.79 ratio: shows hair through tie */
+  border-radius: 18px;
   margin: 0 0 20px;
   box-shadow:
     0 0 0 1px var(--rule),
@@ -853,7 +853,7 @@ font[color="#E55C5C"] strong{
   .body{ gap: 36px; }
   .body .left{ width: 30%; }
   .body .right{ width: 70%; }
-  .head-img{ width: 180px; height: 180px; }
+  .head-img{ width: 180px; height: 227px; }
   .biography-title{ font-size: 34px; }
   .biography{ font-size: 16.5px; }
 
@@ -944,7 +944,7 @@ font[color="#E55C5C"] strong{
   .body .left{ width: 100%; }
   .body .right{ width: 100%; margin-top: 32px; }
 
-  .head-img{ width: 160px; height: 160px; }
+  .head-img{ width: 160px; height: 202px; }
   .biography-title{
     text-align: center;
     font-size: 30px;
