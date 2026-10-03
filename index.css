@@ -1095,3 +1095,10 @@ font[color="#E55C5C"] strong{
 
 /* Experience logos: same visual width regardless of source size */
 #Experience img{ width: 90px; max-height: 90px; object-fit: contain; }
+
+.research-intro{
+  font-size: 16.5px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin-bottom: 6px;
+}
